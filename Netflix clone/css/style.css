@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333!important;
+}
+.head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("../assets/main-back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main-nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:20px ;
+    margin-left: 0!important;
+}
+.container{
+    margin-top: 10px;
+}
+.netflix-logo img{
+    height: 60px;
+    width: 170px;
+}
+.nav-button{
+    justify-content: flex-end;
+}
+.nav-button select{
+    color: white;
+    border: 1px solid grey;
+    /* padding: 8px; */
+    /* padding: 6px 6px 6px 15px; */
+    padding: 6px;
+    /* border: none; */
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.nav-button select option :hover{
+    color: white;
+}
+.nav-button button{
+    background-color: red;
+    color: white;
+    padding: 6px 15px 6px 15px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 3px;
+
+}
+.para{
+    text-align: center;
+    margin-top: 150px;
+}
+.para p{
+    font-size: 62px;
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.para input{
+    width: 750px;
+    padding: 18px;
+}
+section{
+     margin-top: 5px;
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     height: 60vh;
+     padding-top: 100px;
+}
+section .img img {
+    height: 300px;
+    width: auto ;
+    margin-top:-70px;
+}
+#section-1
+{
+    margin-top: 5px;
+    background-color: black;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.faq{
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    gap: 20px;
+    /* border: 2px solid green; */
+}
+.question
+{
+    padding: 3px;
+    width: 800px;
+    /* border: 1px solid green ; */
+    background-color: #333333;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.question h3, .question h2{
+    margin-bottom: 0px;
+}
+.faq input{
+    padding: 18px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+input::placeholder{
+    font-weight: 500;
+}
+#footer{
+    padding: 50px 50px 20px 50px;
+    /* padding-bottom: 20px!important; */
+}
+#footer p{
+font-weight: 600;
+color:rgb(137, 132, 132);
+margin-left: 30px;
+margin-bottom: 30px;
+}
+.foot-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.list ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+    color:rgb(137, 132, 132);
+    text-align: left;
+}
+.foot-cont a{
+    color:rgb(137, 132, 132);
+    padding: 8px;
+    border: 1px solid rgb(137, 132, 132);
+    margin-left: 30px!important;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-btn{
+    margin-top: 30px;
+}
